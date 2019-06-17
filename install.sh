@@ -7,7 +7,7 @@ xctemplates_zip=xctemplates.zip
 local_codesnippets_zip=`pwd`/archive/$codesnippets_zip
 local_xctemplates_zip=`pwd`/archive/$xctemplates_zip
 
-remote_url="https://raw.githubusercontent.com/Tencent/wcdb/master/tools/templates/archive"
+remote_url="https://github.com/hcxyzlm/XcodeTmplates/archive"
 temp_directory=`mktemp -d`
 
 if [ ! -f "$local_codesnippets_zip" ]; then
