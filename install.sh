@@ -47,8 +47,8 @@ if [ -h "$target_templates" ] ;
 then
     rm "$target_templates"
 fi;
-rm -f "$target_codesnippets"/WCDB.*
-rm -fr "$target_templates"/WCDB
+rm -f "$target_codesnippets"/yz_*
+rm -fr "$target_templates"/YouZan
 
 install() {
     source_zip="$1"
