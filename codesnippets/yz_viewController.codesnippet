@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yz_viewController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import UIKit
+import TangramKit
+import RxCocoa
+import RxSwift
+import Action
+
+/// &lt;#Description#&gt;
+class &lt;#class#&gt;: BaseViewController {
+    
+    // MARK: - Accessor
+    
+    // MARK: - LifeCycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+        bindViewModel()
+        // Do any additional setup after loading the view.
+    }
+}
+
+// MARK: - Public Methods
+extension &lt;#class#&gt; {
+    
+}
+
+// MARK: - Private Methods
+private extension &lt;#class#&gt; {
+    func setupUI() {
+        
+    }
+    
+    func bindViewModel() {
+        
+    }
+}
+
+// MARK: - Event
+extension &lt;#class#&gt; {
+    
+}
+
+// MARK: - Delegate
+extension &lt;#class#&gt; {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D6B4793E-6B8F-4CBE-80A3-97EF557D103A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ViewController初始化</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ViewController Init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

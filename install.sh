@@ -3,6 +3,7 @@
 # 工程模板路径
 # ~/Library/Developer/Xcode/Templates
 # codesnipets 路径
+# ~/Library/Developer/Xcode/UserData/CodeSnippets/
 
 # 定义变量
 codesnippets_zip=codesnippets.zip

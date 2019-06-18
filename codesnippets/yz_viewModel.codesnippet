@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yz_viewModel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import UIKit
+import RxCocoa
+import RxSwift
+import Action
+
+/// &lt;#Desecrption#&gt;
+class &lt;#class#&gt;: BaseViewModel {
+    // MARK: - Public
+    
+    // MARK: - private
+}
+
+// MARK: - Public Methods
+extension &lt;#class#&gt; {
+    
+}
+
+// MARK: - Private Methods
+private extension &lt;#class#&gt; {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0E534299-2489-4DCC-83D5-00766A749AF9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>viewModel 初始化</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>viewModel Init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

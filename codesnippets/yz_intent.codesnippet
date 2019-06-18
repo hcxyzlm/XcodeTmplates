@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yz_intent</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let intent = Intent(displayer: PushPopDisplayer())
+        intent.builder = IntentableBuilder(id: nil, creation: { () -&gt; Intentable? in
+            let vc = &lt;#class#&gt;()
+           
+            return vc
+        })
+        ts_start(intent)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B6D0172C-341F-4FA5-81CF-2CAFBB20867F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>路由跳转</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>intent init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

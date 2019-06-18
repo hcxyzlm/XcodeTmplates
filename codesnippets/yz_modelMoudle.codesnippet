@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yz_modelMoudle</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@objc(&lt;#class#&gt;&lt;##&gt;) public class &lt;#class#&gt;: NSObject {
+    @objc public var &lt;#object#&gt;: Int = 0
+    @objc public var &lt;#object#&gt;: String = "-"
+    @objc public var &lt;#object#&gt;: Int = &lt;#enum#&gt;.rawValue
+    @objc public var &lt;#type#&gt;_t: &lt;#enum#&gt; {
+        get {
+            return &lt;#enum#&gt;(rawValue: &lt;#value#&gt;) ?? &lt;#value#&gt;
+        }
+        set {
+            &lt;#type#&gt; = &lt;#value#&gt;.rawValue
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5095F097-ADE9-458A-AE1A-95DC90A20413</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>model moudle</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>model moudle</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
