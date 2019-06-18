@@ -1,12 +1,18 @@
 #!/usr/make
 
-# prepare source
+# 工程模板路径
+# ~/Library/Developer/Xcode/Templates
+# codesnipets 路径
+
+# 定义变量
 codesnippets_zip=codesnippets.zip
 xctemplates_zip=xctemplates.zip
 
+#定义本地的代码路径
 local_codesnippets_zip=`pwd`/archive/$codesnippets_zip
 local_xctemplates_zip=`pwd`/archive/$xctemplates_zip
 
+# 远程路径，需要用到github上的短链，具体方法点击raw
 remote_url="https://raw.githubusercontent.com/hcxyzlm/XcodeTmplates/master/archive"
 temp_directory=`mktemp -d`
 
