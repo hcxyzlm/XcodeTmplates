@@ -9,7 +9,7 @@
 codesnippets_zip=codesnippets.zip
 xctemplates_zip=xctemplates.zip
 
-#定义本地的代码路径
+#定义本地的archive路径
 local_codesnippets_zip=`pwd`/archive/$codesnippets_zip
 local_xctemplates_zip=`pwd`/archive/$xctemplates_zip
 
